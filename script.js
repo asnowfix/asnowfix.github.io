@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', function() {
     new Typed('#typed-text', {
         strings: [
             'Senior Software Architect',
-            'Linux Kernel Developer',
-            'Distributed Systems Expert'
+            'Low-Level Systems Expert',
+            'Kernel & Assembly Developer'
         ],
         typeSpeed: 50,
         backSpeed: 50,
