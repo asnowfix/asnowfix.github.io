@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
         strings: [
             'Senior Software Architect',
             'Cloud Automation Expert',
-            'Systems Developer'
+            'System Software Developer'
         ],
         typeSpeed: 50,
         backSpeed: 50,
