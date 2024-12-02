@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     new Typed('#typed-text', {
         strings: [
             'Senior Software Architect',
-            'Cloud Engineer & Architect',
+            'Linux Kernel Developer',
             'Distributed Systems Expert'
         ],
         typeSpeed: 50,
