@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', function() {
     new Typed('#typed-text', {
         strings: [
             'Senior Software Architect',
-            'System Architect',
-            'Technology Leader'
+            'Cloud Engineer & Architect',
+            'System Architect'
         ],
         typeSpeed: 50,
         backSpeed: 50,
