@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -23,7 +24,9 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
                     <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#patents">Patents</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -31,7 +34,7 @@
     </nav>
 
     <section id="home" class="hero-section text-center text-white d-flex align-items-center">
-        <div class="container">
+        <div class="container" data-aos="fade-up">
             <h1 class="display-3 fw-bold">FiX Kowalski</h1>
             <p class="lead" id="typed-text"></p>
             <div class="social-links mt-4">
@@ -44,100 +47,135 @@
 
     <section id="about" class="py-5">
         <div class="container">
-            <h2 class="text-center mb-4">About Me</h2>
-            <div class="row">
-                <div class="col-lg-10 mx-auto">
-                    <p class="lead text-center mb-5">
-                        I am a Senior Software & System Architect at Amadeus, currently serving as <strong>core contributor & co-architect</strong> 
-                        of a <strong>multi-cloud, multi-framework Agentic AI platform</strong>—a comprehensive library and deployment pipeline 
-                        supporting LangGraph, Google ADK, and Semantic Kernel. With a strong foundation in low-level system programming, 
-                        from x86 assembly debugging to Linux kernel modules and network subsystems, I bring deep technical expertise to 
-                        cutting-edge AI infrastructure challenges. My experience spans from bare metal to cloud, enabling me to design 
-                        and implement robust, scalable solutions across the entire technology stack.
+            <h2 class="text-center mb-5" data-aos="fade-up">About Me</h2>
+            <div class="row align-items-center mb-5">
+                <div class="col-lg-10 mx-auto" data-aos="fade-up">
+                    <p class="lead text-center mb-4">
+                        I am a <strong>System Software Architect - Device & Cloud</strong> based in Châteauneuf-Grasse, France. 
+                        A curious and AI-powered techie, I specialize in solving complex issues in distributed, low-level, and high-performance software.
                     </p>
-                    
-                    <div class="expertise-section mb-5">
-                        <h4 class="text-center mb-4"><i class="fas fa-brain me-2"></i>Areas of Expertise</h4>
-                        <div class="row g-4">
-                            <div class="col-md-4">
-                                <div class="expertise-card text-center p-4">
-                                    <i class="fas fa-robot fa-3x mb-3 text-primary"></i>
-                                    <h5>Agentic AI Platforms</h5>
-                                    <p class="text-muted small">Multi-cloud orchestration, LangGraph, ADK, Semantic Kernel</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="expertise-card text-center p-4">
-                                    <i class="fas fa-network-wired fa-3x mb-3 text-primary"></i>
-                                    <h5>DNS Infrastructure</h5>
-                                    <p class="text-muted small">Enterprise DNS architecture & automation</p>
-                                    <span class="badge bg-secondary">Expert</span>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="expertise-card text-center p-4">
-                                    <i class="fas fa-code fa-3x mb-3 text-primary"></i>
-                                    <h5>Infrastructure as Code</h5>
-                                    <p class="text-muted small">Terraform, cloud automation, GitOps</p>
-                                    <span class="badge bg-secondary">Expert</span>
-                                </div>
-                            </div>
+                    <p class="text-center text-muted">
+                        Currently serving as a Senior Architect at Amadeus, I am a core contributor to a multi-cloud Agentic AI platform. 
+                        With a history spanning from <strong>x86 assembly debugging</strong> to <strong>cloud-scale automation</strong>, 
+                        I model business problems as technically solvable issues and bridge the gap between deep tech and executive strategy.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="expertise-section mb-5" data-aos="fade-up">
+                <h4 class="text-center mb-4"><i class="fas fa-layer-group me-2"></i>Technical Arsenal</h4>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-4 col-lg-3">
+                        <div class="expertise-card text-center p-3 h-100">
+                            <i class="fas fa-brain fa-2x mb-3 text-primary"></i>
+                            <h5>AI & Data</h5>
+                            <p class="small text-muted mb-0">Agentic AI, LangGraph, Semantic Kernel, ADK</p>
                         </div>
                     </div>
-                    <div class="mt-4">
-                        <h4 class="text-center mb-3">Patents</h4>
-                        <div class="row justify-content-center">
-                            <div class="col-lg-10">
-                                <div class="card mb-3">
-                                    <div class="card-body">
-                                        <h5 class="card-title">US Patent 9,723,052</h5>
-                                        <p class="card-text">Utilizing Content via Personal Clouds</p>
-                                        <p class="card-text"><small class="text-muted">Issued January 28, 2011</small></p>
-                                        <p class="card-text">
-                                            <a href="https://patents.google.com/patent/US20130297739A1" target="_blank" class="text-decoration-none">
-                                                View Patent <i class="fas fa-external-link-alt"></i>
-                                            </a>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="card mb-3">
-                                    <div class="card-body">
-                                        <h5 class="card-title">US Patent 8,819,698</h5>
-                                        <p class="card-text">Cross-Platform Web-Based Native Device Feature Access</p>
-                                        <p class="card-text"><small class="text-muted">Issued August 26, 2014</small></p>
-                                        <p class="card-text">
-                                            <a href="https://patents.google.com/patent/US8819698" target="_blank" class="text-decoration-none">
-                                                View Patent <i class="fas fa-external-link-alt"></i>
-                                            </a>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="card mb-3">
-                                    <div class="card-body">
-                                        <h5 class="card-title">European Patent EU 13713494.6-1951</h5>
-                                        <p class="card-text">Predictive Cache Apparatus and Method of Cache Prediction</p>
-                                        <p class="card-text"><small class="text-muted">Issued January 31, 2013</small></p>
-                                        <p class="card-text">
-                                            <a href="https://register.epo.org/application?number=EP13713494" target="_blank" class="text-decoration-none">
-                                                View Patent <i class="fas fa-external-link-alt"></i>
-                                            </a>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">European Patent EU 09751488.9-1247</h5>
-                                        <p class="card-text">Apparatus and Method for Recording Video Data</p>
-                                        <p class="card-text"><small class="text-muted">PCT/US2009044700 · Issued May 20, 2009</small></p>
-                                        <p class="card-text">
-                                            <a href="https://register.epo.org/application?number=EP09751488" target="_blank" class="text-decoration-none">
-                                                View Patent <i class="fas fa-external-link-alt"></i>
-                                            </a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="col-md-4 col-lg-3">
+                        <div class="expertise-card text-center p-3 h-100">
+                            <i class="fas fa-cloud fa-2x mb-3 text-primary"></i>
+                            <h5>Cloud & DevOps</h5>
+                            <p class="small text-muted mb-0">Azure, Kubernetes, Docker, Terraform, GitOps</p>
                         </div>
+                    </div>
+                    <div class="col-md-4 col-lg-3">
+                        <div class="expertise-card text-center p-3 h-100">
+                            <i class="fas fa-code fa-2x mb-3 text-primary"></i>
+                            <h5>Languages</h5>
+                            <p class="small text-muted mb-0">Python, C, C++, Java, JavaScript/Node.js, Go</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-3">
+                        <div class="expertise-card text-center p-3 h-100">
+                            <i class="fas fa-microchip fa-2x mb-3 text-primary"></i>
+                            <h5>Systems</h5>
+                            <p class="small text-muted mb-0">Linux Kernel, Networking, DNS, Security/TLS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education & Interests Row -->
+            <div class="row g-4 mt-2">
+                <div class="col-md-6" data-aos="fade-right">
+                    <div class="info-card h-100 p-4">
+                        <h4 class="mb-3"><i class="fas fa-graduation-cap me-2 text-primary"></i>Education</h4>
+                        <div class="mb-3">
+                            <h6 class="fw-bold">ISAE (ENSICA)</h6>
+                            <p class="mb-0 text-muted">Master Degree, Aeronautics & Signal Processing</p>
+                            <small class="text-muted">1991 - 1994 | Toulouse, France</small>
+                        </div>
+                        <div>
+                            <h6 class="fw-bold">Classes Préparatoires</h6>
+                            <p class="mb-0 text-muted">Math Sup & Math Spé</p>
+                            <small class="text-muted">1989 - 1991 | Rennes, France</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-left">
+                    <div class="info-card h-100 p-4">
+                        <h4 class="mb-3"><i class="fas fa-heart me-2 text-primary"></i>Interests</h4>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="badge bg-light text-dark border"><i class="fas fa-wind me-1"></i>Windsurfing (35+ yrs)</span>
+                            <span class="badge bg-light text-dark border"><i class="fas fa-hockey-puck me-1"></i>Roller/Ice Hockey</span>
+                            <span class="badge bg-light text-dark border"><i class="fas fa-person-skiing me-1"></i>Downhill Skiing</span>
+                            <span class="badge bg-light text-dark border"><i class="fas fa-running me-1"></i>Cross-Fit & Running</span>
+                            <span class="badge bg-light text-dark border"><i class="fas fa-music me-1"></i>Rock'n Roll Dancing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">Professional Journey</h2>
+            <div class="timeline">
+                <!-- Item 1 -->
+                <div class="timeline-item left" data-aos="fade-right">
+                    <div class="content">
+                        <span class="date">2021 - Present</span>
+                        <h5>Senior Cloud Architect</h5>
+                        <p class="company text-primary fw-bold">Amadeus</p>
+                        <p>Core contributor to the Agentic AI platform. Lead Architect for Azure Cloud Automation (270+ subscriptions, 300k+ resources). Cloud Design Authority for DNS and IaC.</p>
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="timeline-item right" data-aos="fade-left">
+                    <div class="content">
+                        <span class="date">2019 - 2021</span>
+                        <h5>Senior Architect - Governance</h5>
+                        <p class="company text-primary fw-bold">Amadeus</p>
+                        <p>Cloud Exploration & Governance. Focused on Hybrid Cloud Architecture, Kubernetes migration, DNS/TLS automation, and GitOps/Everything-as-Code strategies.</p>
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="timeline-item left" data-aos="fade-right">
+                    <div class="content">
+                        <span class="date">2015 - 2019</span>
+                        <h5>Impl. Architect - Web Platforms</h5>
+                        <p class="company text-primary fw-bold">HP Inc.</p>
+                        <p>Architected API Management solutions (Apigee). Designed the Node.js-based Edge Micro-Gateway. Led container-based deployments (Docker/K8s) for messaging services.</p>
+                    </div>
+                </div>
+                <!-- Item 4 -->
+                <div class="timeline-item right" data-aos="fade-left">
+                    <div class="content">
+                        <span class="date">2008 - 2015</span>
+                        <h5>System Architect & Developer</h5>
+                        <p class="company text-primary fw-bold">Hewlett-Packard</p>
+                        <p>Varied roles: Built the Ares2 webOS IDE (Node.js/EnyoJS). Android System Expert (Kernel/Framework) for netbooks. Developed RAIN personal cloud framework.</p>
+                    </div>
+                </div>
+                <!-- Item 5 -->
+                <div class="timeline-item left" data-aos="fade-right">
+                    <div class="content">
+                        <span class="date">1996 - 2008</span>
+                        <h5>Telecom & Media Architect</h5>
+                        <p class="company text-primary fw-bold">HP / Alten / RMB</p>
+                        <p>Led Media Platform implementation (C/C++). Optimized real-time DSP frameworks. Early career in 3D TV Weather Forecast engines and Telecom Signalling (SS7/VoIP).</p>
                     </div>
                 </div>
             </div>
@@ -146,9 +184,9 @@
 
     <section id="projects" class="py-5">
         <div class="container">
-            <h2 class="text-center mb-4">Featured Work</h2>
+            <h2 class="text-center mb-5" data-aos="fade-up">Featured Projects</h2>
             <div class="row g-4">
-                <div class="col-lg-6 mb-4">
+                <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="card h-100 project-card featured">
                         <div class="card-body">
                             <div class="d-flex align-items-center mb-3">
@@ -156,73 +194,122 @@
                                 <h5 class="card-title mb-0">Agentic AI Platform</h5>
                             </div>
                             <p class="card-text">
-                                Core contributor & co-architect of an enterprise-grade multi-cloud Agentic AI platform. 
-                                Built a unified library and deployment pipeline supporting multiple AI frameworks 
-                                (LangGraph, Google ADK, Semantic Kernel) with seamless cloud portability.
+                                Core architect of an enterprise-grade multi-cloud Agentic AI platform. 
+                                Unified library and pipeline supporting LangGraph, Google ADK, and Semantic Kernel.
                             </p>
                             <div class="tech-tags">
+                                <span class="badge bg-primary">Python</span>
                                 <span class="badge bg-primary">LangGraph</span>
-                                <span class="badge bg-primary">ADK</span>
-                                <span class="badge bg-primary">Semantic Kernel</span>
                                 <span class="badge bg-info">Multi-Cloud</span>
-                                <span class="badge bg-info">Python</span>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 mb-4">
-                    <div class="card h-100 project-card">
-                        <div class="card-body">
-                            <div class="d-flex align-items-center mb-3">
-                                <i class="fas fa-cloud fa-2x text-primary me-3"></i>
-                                <h5 class="card-title mb-0">Cloud Automation</h5>
-                            </div>
-                            <p class="card-text">
-                                Designed and implemented cloud software automation solutions leveraging Azure infrastructure, 
-                                enabling scalable and resilient enterprise deployments with Infrastructure as Code best practices.
-                            </p>
-                            <div class="tech-tags">
-                                <span class="badge bg-primary">Azure</span>
-                                <span class="badge bg-primary">Terraform</span>
-                                <span class="badge bg-info">GitOps</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 mb-4">
+                <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="card h-100 project-card">
                         <div class="card-body">
                             <div class="d-flex align-items-center mb-3">
                                 <i class="fas fa-network-wired fa-2x text-primary me-3"></i>
-                                <h5 class="card-title mb-0">Enterprise DNS Architecture</h5>
+                                <h5 class="card-title mb-0">Cloud Automation & DNS</h5>
                             </div>
                             <p class="card-text">
-                                Led the design and implementation of enterprise-scale DNS infrastructure, 
-                                establishing architectural patterns and automation frameworks for global deployments.
+                                Architected massive Azure infrastructure automation (270+ subscriptions) and enterprise DNS strategies.
+                                Designed Global Traffic Management patterns for hybrid cloud resilience.
                             </p>
                             <div class="tech-tags">
-                                <span class="badge bg-primary">DNS</span>
-                                <span class="badge bg-primary">Architecture</span>
-                                <span class="badge bg-info">Automation</span>
+                                <span class="badge bg-primary">Terraform</span>
+                                <span class="badge bg-primary">Azure</span>
+                                <span class="badge bg-info">DNS / GTM</span>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 mb-4">
+                <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="300">
                     <div class="card h-100 project-card">
                         <div class="card-body">
                             <div class="d-flex align-items-center mb-3">
-                                <i class="fas fa-microchip fa-2x text-primary me-3"></i>
-                                <h5 class="card-title mb-0">Low-Level Systems</h5>
+                                <i class="fas fa-wave-square fa-2x text-primary me-3"></i>
+                                <h5 class="card-title mb-0">Real-Time Media Platform</h5>
                             </div>
                             <p class="card-text">
-                                Deep expertise in system programming including Linux kernel modules, network subsystems, 
-                                and x86 assembly debugging—bringing bare-metal understanding to modern cloud challenges.
+                                Led implementation of the OpenCall Media Platform product line. 
+                                Designed critical C/C++ system layers and optimized real-time DSP frameworks for audio/video processing using Intel performance primitives.
                             </p>
                             <div class="tech-tags">
-                                <span class="badge bg-primary">Linux Kernel</span>
-                                <span class="badge bg-primary">C</span>
-                                <span class="badge bg-info">x86 Assembly</span>
+                                <span class="badge bg-primary">C/C++</span>
+                                <span class="badge bg-primary">Real-Time DSP</span>
+                                <span class="badge bg-info">System Architecture</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card h-100 project-card">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fas fa-satellite-dish fa-2x text-primary me-3"></i>
+                                <h5 class="card-title mb-0">Signal Processing & 3D</h5>
+                            </div>
+                            <p class="card-text">
+                                Pioneered real-time 3D weather forecast rendering engines and designed digital filtering software for Harbor SONAR.
+                                Built data acquisition systems on DSPs (TMS 320C30) driven by real-time OS.
+                            </p>
+                            <div class="tech-tags">
+                                <span class="badge bg-primary">Signal Processing</span>
+                                <span class="badge bg-primary">OpenGL</span>
+                                <span class="badge bg-info">DSP / RTOS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="patents" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">Patents</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="row g-4">
+                        <div class="col-md-6" data-aos="fade-up">
+                            <div class="card h-100 border-0 shadow-sm">
+                                <div class="card-body">
+                                    <h6 class="text-primary fw-bold">US Patent 9,723,052</h6>
+                                    <h5 class="card-title">Utilizing Content via Personal Clouds</h5>
+                                    <p class="small text-muted mb-2">Issued 2017</p>
+                                    <a href="https://patents.google.com/patent/US20130297739A1" target="_blank" class="btn btn-sm btn-outline-primary">View <i class="fas fa-external-link-alt ms-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+                            <div class="card h-100 border-0 shadow-sm">
+                                <div class="card-body">
+                                    <h6 class="text-primary fw-bold">US Patent 8,819,698</h6>
+                                    <h5 class="card-title">Web-Based Native Device Feature Access</h5>
+                                    <p class="small text-muted mb-2">Issued 2014</p>
+                                    <a href="https://patents.google.com/patent/US8819698" target="_blank" class="btn btn-sm btn-outline-primary">View <i class="fas fa-external-link-alt ms-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                            <div class="card h-100 border-0 shadow-sm">
+                                <div class="card-body">
+                                    <h6 class="text-primary fw-bold">EU Patent 13713494.6</h6>
+                                    <h5 class="card-title">Predictive Cache Apparatus</h5>
+                                    <p class="small text-muted mb-2">Issued 2013</p>
+                                    <a href="https://register.epo.org/application?number=EP13713494" target="_blank" class="btn btn-sm btn-outline-primary">View <i class="fas fa-external-link-alt ms-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                            <div class="card h-100 border-0 shadow-sm">
+                                <div class="card-body">
+                                    <h6 class="text-primary fw-bold">EU Patent 09751488.9</h6>
+                                    <h5 class="card-title">Recording Video Data Stream</h5>
+                                    <p class="small text-muted mb-2">Issued 2009</p>
+                                    <a href="https://register.epo.org/application?number=EP09751488" target="_blank" class="btn btn-sm btn-outline-primary">View <i class="fas fa-external-link-alt ms-1"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -233,18 +320,19 @@
 
     <section id="contact" class="py-5">
         <div class="container">
-            <h2 class="text-center mb-4">Contact Me</h2>
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <div class="d-flex flex-column align-items-center">
-                        <a href="mailto:fix.kowalski@gmail.com" class="btn btn-lg btn-outline-primary mb-3 contact-link">
-                            <i class="fas fa-envelope me-2"></i>Send Email
+            <div class="row justify-content-center" data-aos="zoom-in">
+                <div class="col-lg-8 text-center">
+                    <h2 class="mb-4">Let's Connect</h2>
+                    <p class="lead text-muted mb-5">Open to discussing Architecture, AI, and Innovation.</p>
+                    <div class="d-flex flex-wrap justify-content-center gap-3">
+                        <a href="mailto:fix.kowalski@gmail.com" class="btn btn-lg btn-primary rounded-pill px-4">
+                            <i class="fas fa-envelope me-2"></i>Email Me
                         </a>
-                        <a href="https://www.linkedin.com/in/asnowfix/message/" target="_blank" class="btn btn-lg btn-outline-primary mb-3 contact-link">
-                            <i class="fab fa-linkedin me-2"></i>Message on LinkedIn
+                        <a href="https://www.linkedin.com/in/asnowfix/" target="_blank" class="btn btn-lg btn-outline-dark rounded-pill px-4">
+                            <i class="fab fa-linkedin me-2"></i>LinkedIn
                         </a>
-                        <a href="https://x.com/messages/compose?recipient_id=asnowfix" target="_blank" class="btn btn-lg btn-outline-primary mb-3 contact-link">
-                            <i class="fab fa-twitter me-2"></i>Direct Message on X
+                        <a href="https://x.com/asnowfix" target="_blank" class="btn btn-lg btn-outline-dark rounded-pill px-4">
+                            <i class="fab fa-twitter me-2"></i>Twitter / X
                         </a>
                     </div>
                 </div>
@@ -254,12 +342,13 @@
 
     <footer class="bg-dark text-white text-center py-4">
         <div class="container">
-            <p class="mb-0">&copy; 2024 FiX Kowalski. All Rights Reserved.</p>
+            <p class="mb-0 text-white-50 small">&copy; 2024 FiX Kowalski. Crafted with code.</p>
         </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

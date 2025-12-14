@@ -1,14 +1,22 @@
 document.addEventListener('DOMContentLoaded', function() {
+    // Initialize AOS
+    AOS.init({
+        duration: 800,
+        easing: 'ease-out-cubic',
+        once: true,
+        offset: 50
+    });
+
     // Typed.js for dynamic text
     new Typed('#typed-text', {
         strings: [
             'Agentic AI Platform Architect',
-            'Senior Software Architect',
-            'Multi-Cloud Expert',
-            'System Software Developer'
+            'Multi-Cloud & DevOps Expert',
+            'System Software Architect',
+            'Low-Level Systems Engineer'
         ],
-        typeSpeed: 50,
-        backSpeed: 30,
+        typeSpeed: 40,
+        backSpeed: 20,
         backDelay: 2000,
         loop: true
     });

@@ -1,0 +1,360 @@
+Francois-Xavier  "FiX"  Kowalski  
+fix.kowalski@gmail.com,  https://fr.linkedin.com/in/asnowfix,  https://github.com/asnowfix FiX  Kowalski  |  Personal  Website 
+501  chemin  de  la  Treille.  06740  CHATEAUNEUF  GRASSE.  France.  +33  (0)6  34  57  21  94.  
+Born  1971-08-24.  Married,  2  children.  
+System  Software  Architect  -  Device  &  Cloud  
+Curious  &  AI-powered  techie,  I  love  solving  issues  in  distributed,  low  level  and  high-performance  
+software.
+ 
+Seasoned
+ 
+software
+ 
+architect,
+ 
+I
+ 
+can
+ 
+model
+ 
+business
+ 
+problems
+ 
+as
+ 
+technically
+ 
+solvable
+ 
+issues,
+ 
+as
+ 
+well
+ 
+as
+ 
+present
+ 
+complex
+ 
+technical
+ 
+problems
+ 
+at
+ 
+executive
+ 
+level.
+ 
+Team
+ 
+player,
+ 
+I
+ 
+put
+ 
+the
+ 
+team
+ 
+collective
+ 
+ego
+ 
+above
+ 
+mine.
+ 
+Education  
+University  1991-1994  
+●  ISAE  (ENSICA)  Master  Degree,  Aeronautics  ●  Signal  Modeling  &  Processing   
+Toulouse  (31),  France  
+University  1989-1991 
+●  Classes  Préparatoires  aux  Grandes  Ecoles,  Lycée  Chateaubriand  ●  Math  Sup  &  Math  Spé   
+Rennes  (35),  France  
+High  School  1986-1989  
+●  Baccalauréat  C,  Mention  Bien  (w/  High  Honors)  
+Vannes  (56),  France   
+Work  Experience  
+Amadeus  SAS  2021-Present  
+GTC/TSI  >  Cloud  Platform  Foundations  Senior  Architect  (Mgr:  E.  Hubin,  Ranaj  B.,  Derek  McTeigue)  ●  Core  contributor  &  co-architect  of  a  Python-based  multi-Cloud  &  multi-framework  Agentic  AI  platform.  ●  Lead  Architect  of  the  Automation  of  deploying  a  highly  distributed  Cloud  Infrastructure  on  Azure  (270+  Subscriptions,  6700+  resource  groups,  300k+  resources)  ●  Transversal  teams:  Cloud  Design  Authority:  editor  of  the  DNS,  Private  Links  &  Infrastructure  as  Code  (IaC)  sections  (Amadeus  migration  to  Azure).  Security  Architecture  team.  Amadeus  Tech  Strategy:  editor  of  the  IaC  section.  ●  Technology  watch  of  Cloud  Automation.  ●  Amadeus  DNS  Architect,  bringing  Global  Traffic  Management  to  the  core  of  Amadeus  ●  Support  implementation  teams  (strategy  definition,  technology  studies,  prototypes)  in  connected  areas:  IaC  (Terraform,  Ansible,  Kubernetes),  DNS  (Terraform),  X.509  TLS  &  Secrets  (Kubernetes,  GoLang).  
+Villeneuve-Loubet  (06),  France  
+Amadeus  SAS  2020-06  -  2021  
+TPE  >  ATG/OTP  (Architecture  &  Technology  Governance)  ●  Senior  Architect  (Mgr:  B.  Chabrier  /  L.  Choubert)  ●  Cloud  Exploration  Team,  working  on  the  Hybrid  Cloud  Architecture,  specifically  on  DNS/TLS  Certificates,  Secrets  distribution  &  Kubernetes.  ●  Infrastructure  as  Code  (IaC)  team:  Interim  developer  of  the  DNS  &  Azure  Managed-Service  automation.  ●  GitOps/Everything-as-Code  working  group,  directly  animated  by  the  SVP,  contributing  to  every  technical  aspect  of  the  vision.   
+Sophia-Antipolis  (06),  France  
+Amadeus  SAS  2019-11  -  2020-05  
+TPE  >  ATG  (Architecture  &  Technology  Governance)  ●  Senior  Architect  (Manager:  Olaf  Schnappauf)  ●  ACS  Program  Architect:  (contribute  to)  define  mid  &  long-term  technical  solutions  to  migrate  Amadeus  workloads  to  Kubernetes-based  hosting.  ●  Lead  ACS  Tech  Board:  cross-team  alignment  forum  ●  SAFe  Dev-Ops  team  member  &  in-ATG  SAFe  advocate  ●  Technical  Master  Plan:  contribute  to  continuous  delivery/deployment  (pipeline)  &  non-central  ecosystems  discussions  (networking,  secrets  management).   
+Sophia-Antipolis  (06),  France  
+HP  Inc.  2015-11  -  2010-10  
+CTO  Office  >  Common  Web  Platforms  (CWP)  
+●  
+Impl.
+ 
+Architect.
+ 
+(Manager:
+ 
+Agnieszka
+ 
+Thonet,
+ 
+Steve
+ Claus,  Bhaskar  Mulakaluri,  Erik  DeBoard)  ●  Member  of  the  CWP  Architects  Forum,  working  as  an  Architect  under  SAFe  governance  (PI  planning…)  ●  HP  Common  Cloud  Software  Governance:  member  of  the  API  Management  domain  committee  ●  Architecture  of  the  Apigee/Google  Edge  API  manager  integration  in  CWP.  HP-wide  Architect  for  the  node.js-based  Edge  Micro-Gateway  (EMG)  integration.  Development  of  prototype  EMG  modules  integrating  with  HP  Identity  (OAuth,  SAML).  ●  Architect  of  the  CWP  Email  &  Messaging  (EMS)  Java  Service.  Development  of  the  container-based  deployment  (Docker  +  Kubernetes)  ●  HP  Identity:  Architect  of  the  ISEC  SSA  (Self-Service  Application)  user  account  management  Java  web-app.  ●  GHE  (GitHub  Enterprise)  account  admin  &  GH-based  software  development  practices  sponsor.  Manages  migration  from  other  Git  hosting  to  GH.com  &  GHE.  ●  “Domain  Architect”  for  API  Management,  Messaging  &  Software  Pipeline     
+Grenoble  (38),  France  (w/  Fort  Collins  CO,  Porto  Alegre  BR,  Vancouver  WA  &  Palo  Alto  CA)  
+Hewlett-Packard  Mar  2013  -  Oct.  2015  
+HP  Software  >  HP  Web-Services  (former  Palm  Cloud)  
+●  
+Impl.
+ 
+Architect.
+ 
+(Manager:
+ 
+Agnieszka
+ 
+Thonet)
+ ●  Web-Services  board  of  architects  ●  HP  Application  Catalog:  Management  Portal  Framework  (MPF):  a  browser-side  application  mashup  using  W3C  Web-Components.  Development  in  JavaScript/DOM  using  Google  Polymer.  Objective:  faster  scaling  of  development  
+Grenoble  (38),  France  (w/  Palo  Alto,  Sunnyvale  &  Shanghai)  
+team.  ●  HP  Application  Catalog:  Management  Portal  increments  &  maintenance,  like  subscription-based  payments,  3-tier  service  selling  (ala  Uber).  Development  in  PHP  &  AngularJS  1.x.   Hewlett-Packard  Aug  2012  -  Feb  2013 
+CTO  Office  >  Gram  (former  Palm,  before  divest.  to  LG  Electronics)  ●  Software  Developer  (Manager:  Agnieszka  Thonet)  ●  Ares2  webOS  web-based  IDE  (https://github.com/enyojs/ares-project),  development  from  scratch  in  JavaScript  using  Node.js  &  EnyoJS.   
+Grenoble  (38),  France  (w/  Sunnyvale)  
+Hewlett-Packard  Nov  2011  -  Jul  2012 
+Enterprise  Services  >  EMEA  Enterprise  Mobility  ●  Technical  Consultant  (Manager:  Agnieszka  Thonet) ●  HP's  Mobility  Advisor  to  the  P&G  CIO  Office  ●  ES  Enterprise  mobility  pre-sales  (mobile  apps)   
+Grenoble  (38),  France 
+Hewlett-Packard  May  2010  -  Oct  2011 
+Personal  System  Group  >  Application  Software  Group  ●  Impl.  Architect  (Manager:  Agnieszka  Thonet)  ●  RAIN  project  inceptor  &  implementer:  multi  platform  (Windows,  webOS,  Linux)  personal  content  synchronization  &  consumption  framework.  Named  as  "Strategic  for  HP"  by  Senior  Technical  Staff  (Senior  Fellows)  as  HP  TechCon  2009-2010.  Development  in  Java  &  C++.   
+Grenoble  (38),  France  (w/  Cupertino)  
+Hewlett-Packard  Nov  2008  -  Apr  2010 
+Personal  System  Group  >  Experience  Software  Business  ●  Senior  Developer  (Manager:  Claude  Cornet)  ●  Android  1.4  -  1.6  system  expert  (kernel,  framework,  apps,  BSP)  on  Qualcomm  ARM  &  Intel  x86  ●  User-Experience  OS  add-ons:  interactive  (mouse  +  touch  +  keyboard)  3D  application  switcher  (OpenGL  ES),  mouse/trackpad  pointer  addition  to  Android  ●  Device:  Compaq  Airlife  100  (netbook)  ●  Deployed  Git  (Gitolite  then  Gerrit)  for  team  development  ●  Member  of  the  Worldwide  PSG  Linux  Council,  as  S/W  development  expert  ●  Unboxing  applications  (support  enablement)  for  ChromeOS  devices   
+Grenoble  (38),  France  (w/  Cupertino,  Palo  Alto  &  Shanghai)  
+Hewlett-Packard  Sep  2007  -  Jan  2008 
+HP  Software  >  OpenCall  Business  Unit  >  Media  Platform  ●  Impl.  Architect  (Manager:  Claude  Cornet)  ●  Lead  implementation  of  the  Media-Platform  product  line.  ●  Design  &  implement  critical  system  layers  (C,  C++)  ●  Integrate  performance-critical  3rd  parties  (Intel  compiler  &  performance  primitives,  Intel  codecs)  ●  Technical  point  of  contact  with  Palo  Alto  HP  Labs  ●  Member  of  the  product-wide  board  of  Architects.  Chair  of  the  OpenCall  product  Licensing  group  ●  Teach  &  control  technical  &  legal  practices  dealing  with  open-source  software  usage  as  part  of  HP  Software  products   
+Grenoble  (38),  France  
+Hewlett-Packard  Sep  2007  -  Jan  2008 
+HP  Software  >  OpenCall  Business  Unit  >  Media  Platform  ●  Senior  Developer  (Manager:  Francois  Vincent)  ●  Multimedia  (Audio  &  Video):  Implement  &  maintain  
+Grenoble  (38),  France  
+several  components  in  a  software  object-based  DSP  framework  (conference  bridge,  tone  generator,...etc.).  ●  Operating-System  expert:  Optimize  Kernel,  Java,  C  &  C++  components  (processes,  threads,  filesystem).  ●  Coordinate  usage  of  Open-Source  software:  Covers  both  legal  &  technical  aspects.  Point  of  contact  with  the  HP  Corporate  OSRB  (Open-Source  Review  Board)  ●  Member  of  the  EMEA  HP  patents  review  committee  ●  Author  of  the  OpenCall  multi-product  Generic  Licensing  Framework   Hewlett-Packard  2002  -  Sep  2007 
+HP  Software  >  OpenCall  Business  Unit  >  SS7  Signaling  Products  
+●  
+Team
+ 
+Tech
+ 
+Lead
+ 
+(Manager:
+ 
+Didier
+ 
+Grand)
+ ●  Impl.  Architecture  of  USP  (UNIVERSAL  SIGNALING  PLATFORM):  converged  HP  &  Compaq  Signaling  Product.  ●  USP  TCAP  implementation  ●  Technology  Consultant  for  the  -  aborted  -  Linux/x86-based  NCP  (NETWORK  COMPUTING  PLATFORM)  project  &  Linux/ia64-based  RSC  (Motorola  Next  Generation  RADIO  SIGNALLING  CONTROLLER).  ●  Cross-functional  (ENGINEERING  INFRASTRUCTURE)  cross  OpenCall  products  (OCSS7,  IN7,  OCMP)  &  cross-business  units  (UNIX  Servers,  Linux  Division)  activities  about  Software  Portability,  Portable  Software  Productization,  Open-Source  (including  legal  aspects)  &  Linux/UNIX.   
+Grenoble  (38),  France  
+Hewlett-Packard  June  2000-2002 
+Telecom  Infrastructure  Division  >  Project  Center  
+●  
+Project
+ 
+Consultant
+ 
+(Manager:
+ 
+Alan
+ 
+Sherman)
+ ●  Advanced  customization  and  delivery  of  HP  telecom  hardware+software  technology  (OpenCall)  directly  to  customers.  Development  in  SLEL  (in-house  SDL-like)  ●  Work  with  large  European  operators,  especially  the  certification  &  deployment  departments.   
+Grenoble  (38),  France  
+Alten  1998  -  June  2000 
+HP  >  Telecom  Infrastructure  Division  >  Project  Center  
+●  
+Software
+ 
+Developer
+ 
+(Manager:
+ 
+Laurent
+ 
+Valluy,
+ Anne-Marie  Renaud)  as  Contractor  ●  Development  of  the  H.323  leg  of  a  PSTN-VoIP  Gateway  (Public  Switched  Telecom  Network:  ISUP  signalling;  VoIP:  H.323  signalling)  ●  Development  in  SLEL  (in-house  SDL-like)  &  Unix  Shells   
+Grenoble  (38),  France  
+Alten  1996  -  1998 
+Nortel   >  MMCS  
+●  
+Software
+ 
+Engineer
+ 
+(Manager:
+ 
+Emmanuel
+ 
+Roger) ●  Management  UI  (AUIF)  increments  for  a  telecom  gateway:  PSTN  (SS7/ISUP)  to  Nortel  MMCS  (MULTIMEDIA  CARRIER  SWITCH.  Development  in  SCO  Visual  Tcl,  on  SCO  OpenServer.  ●  Design  &  development  of  the  Node  Management  part  of  another  gateway  from  the  PSTN  (SS7/ISUP)  to  the  Nortel  MMCS.  Distributed  architecture.  Development  in  ANSI  using  BSD  sockets  API,  under  SunOS  4  &  Solaris  2.6.  ●  Y2K  internal  certification  (Test  Plan  &  Bug  Fix)  of  the  MMCS  gateway  to  the  PSTN.  Coding  in  ANSI  C  under  vxWorks  &  Solaris  2.6.   
+Marne  La  Vallée  (94),  France  
+RMB  Technologies  (Groupe  RDC)  July  1994  -  1996  
+●  
+Research
+ 
+Engineer
+ 
+(Manager:
+ 
+Paul
+ 
+Delorme) ●  Funded  by  ANVAR  (French  National  Agency  for  Research)  ●  3D  TV  Weather  Forecast  (likely  world's  first  one):  Research,  design  &  development  of  a  2D  Signal  Processing  Engine  &  subsequent  3D  renderer  from  meteorological  images.  Data  collection  from  several  ground  data  model,  and  2D  meteorological  images  received  &  processed  using  real-time  processing.  Coding  C  /  OpenGL  &  C++  /  OpenInventor  libraries,  under  SGI  IRIX  5.2  to  6.2.  ●  Harbor  Sonar  improvements:  Design  &  development  of  a  data  acquisition  &  digital  filtering  software,  aimed  to  collect  streams  uploaded  from  a  harbor  SONAR.  Project  using  a  DSP  (TMS  320C30)  driven  in  C  by  a  PC  platform,  under  real-time  S/DOS.   
+Cesson-Sévigné  (35),  France  
+Community  Service  
+Hour  of  Code  Nov.  2016  
+●  
+Middle-School
+ 
+Trainer,
+ 
+6th
+ 
+Grade
+ ●  Learning  Scratch  w/  Minecraft   
+Crolles  (38),  France  
+Ecole  des  Mines  de  Saint  Etienne,  ISMIN  2013  
+●  
+University
+ 
+Lecturer
+ 
+●  "A  brief  history  of  web  development  technologies"  
+●  Hands-on  labs    
+Gardanne  (13),  France  
+Honors  and  awards  
+●  Patent: Issued  May  2009,  Apparatus  and  Method  for  Recording  Video  Data  ●  Europe  09751488.9  1247  PCT/US2009044700  ●  Enable  recording  of  a  video  stream  at  any  point  in  time,  regardless  of  the  nature  of  the  current  video  frame  
+(key,
+ 
+predictive,
+ 
+bidirectional)
+  ●  Patent: Issued  August  2014,  Cross-Platform  Web_based  Native  Device  Feature  Access  ●  US:  8819698  ●  A  cross-platform  web-based  native  device  feature  access  system  provides  a  portable  API  for  mobile  web  
+application
+ 
+development
+ 
+for
+ 
+accessing
+ 
+low-level
+ 
+device
+ 
+features.
+  ●  Patent: Issued  January  2013,  Predictive  Cache  Apparatus  and  Method  of  Cache  Predication  ●  Europe  13713494.6  -  1951  ●  A  predictive  cache  apparatus  for  controlling  the  cache  update  of  a  database,  including  a  CEP  processor  
+configured
+ 
+to
+ 
+detect
+ 
+events
+ 
+generated
+ 
+the
+ 
+database
+ 
+or
+ 
+operational
+ 
+units,
+ 
+a
+ 
+cache
+ 
+distributor
+ 
+configured
+ 
+to
+ 
+control
+ 
+the
+ 
+data
+ 
+to
+ 
+be
+ 
+cached
+ 
+in
+ 
+cache
+ 
+units
+ 
+based
+ 
+on
+ 
+the
+ 
+cache
+ 
+operation
+ 
+order
+ 
+generated
+ 
+by
+ 
+the
+ 
+CEP
+ 
+and
+ 
+a
+ 
+method
+ 
+of
+ 
+cache
+ 
+prediction
+ 
+that
+ 
+can
+ 
+be
+ 
+implemented
+ 
+by
+ 
+such
+ 
+a
+ 
+predictive
+ 
+cache
+ 
+apparatus.
+ 
+Interests  and  Skills  
+Technical  Skills  Programming  ●  Major:  C,  C++,  JavaScript,  Java,  Unix  Shells  (sh/csh/bash/zsh…)  ●  Minor:  ASM  (x86,  68k,  Z80),  ADA,  Pascal   Operating  Systems  ●  Linux,  macOS/OSX,  HP-UX,  Solaris  …  UNIX  at  large  ●  Windows   Source  Code  Management  
+ 
+●  Git  (raw  or  w/  GH.com,  GHE,  Gerrit)  ●  Subversion  (raw  or  w/  CollabNet),  CM  Synergy,  ClearCase,  BitKeeper,  RCS   Protocols  ●  Telco:  SIP  H.323  ISDN  TCAP  ISUP  MGCP/MEGACO/H.248  TCP/UDP/SCTP  IPv4/v6  SNMP  RADIUS/DIAMETER  ●  IT:  HTTP/S,  OAuth   Product  Generation  &  Deployment  ●  Docker,  Kubernetes,  RPM,  Deb,  GNU  Make  &  AutoTools   Development  Environment  ●  Modular:  Emacs,  GitHub  Atom,,  Adobe  Brackets  ●  All-in-One:  IntelliJ  IDEA,  Eclipse,  Visual  Studio   Language  Skills  ●  French :  native  ●  English :  fluent  /  full  professional  proficiency   ●  German :  scholar  proficiency  (7  years  study,  no  practice)   
+ 
+Athletics  ●  Roller  Hockey  France  Championship,  Regional  Division  ●  Ice  Hockey   ●  Downhill  skiing  w/  Family  &  Friends  ●  Windsurfing  35+  years  active  practice  ●  Running  &  Cross-Fit  to  prepare  the  activities  above  ●  Dancing  Rock'n  Roll  
+ 
+ 
