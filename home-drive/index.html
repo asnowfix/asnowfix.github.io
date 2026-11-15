@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>homedrive</title>
+  <meta name="description" content="homedrive: an open-source, self-hosted bidirectional Google Drive sync agent for headless Linux.">
+  <link rel="icon" type="image/svg+xml" href="icon.svg">
+  <link rel="icon" type="image/png" sizes="48x48" href="icon-48.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header>
+    <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="56" height="56" aria-hidden="true">
+      <g fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M6 30 L32 8 L58 30"/><path d="M14 24 V56 H50 V24"/>
+        <path d="M22.6 37.6 A10 10 0 0 1 41.4 37.6"/><path d="M43.8 32.4 L41.7 38.5 L36.2 35.2"/>
+        <path d="M41.4 44.4 A10 10 0 0 1 22.6 44.4"/><path d="M20.2 49.6 L22.3 43.5 L27.8 46.8"/>
+      </g>
+    </svg>
+    <span class="brand">homedrive</span>
+  </header>
+
+  <h1>Self-hosted, two-way Google Drive sync for headless Linux</h1>
+  <p>homedrive is a free, open-source sync agent. It keeps a folder on your own
+  Linux machine, such as a Raspberry Pi NAS, in sync with your own Google Drive,
+  in both directions.</p>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>Watches your local folder and uploads changes to Google Drive.</li>
+    <li>Polls the Google Drive Changes API and downloads changes made elsewhere.</li>
+    <li>Treats the local disk as the source of truth and works offline.</li>
+    <li>Resolves conflicts with "newer wins", keeping the older version as <code>.old.&lt;N&gt;</code>.</li>
+    <li>Optionally publishes status to your own MQTT broker for Home Assistant.</li>
+  </ul>
+
+  <h2>How it uses your Google data</h2>
+  <p>homedrive runs entirely on hardware you control. It uses the Google Drive API
+  only to sync your files between your machine and your own Drive. There is no
+  homedrive server, no telemetry and no analytics, and nothing is sent to the
+  maintainer. Your OAuth token is stored only on your machine.
+  See the <a href="legal/privacy-policy.html">privacy policy</a> for details.</p>
+
+  <h2>Get it</h2>
+  <p>Source code, install instructions and releases:
+  <a href="https://github.com/asnowfix/home-drive">github.com/asnowfix/home-drive</a>.
+  homedrive is released under the MIT License.</p>
+
+  <footer>
+    <a href="legal/privacy-policy.html">Privacy policy</a>
+    <a href="legal/terms-of-service.html">Terms of service</a>
+    <a href="https://github.com/asnowfix/home-drive/issues">Contact (GitHub issues)</a>
+    <p>homedrive is an independent project, not affiliated with or endorsed by Google.
+    Google Drive is a trademark of Google LLC.</p>
+  </footer>
+</main>
+</body>
+</html>
