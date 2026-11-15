@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>homedrive terms of service</title>
+  <link rel="icon" type="image/svg+xml" href="../icon.svg">
+  <link rel="icon" type="image/png" sizes="48x48" href="../icon-48.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<main>
+  <header><a class="brand" href="../">homedrive</a></header>
+
+  <h1>Application Terms of Service</h1>
+  <div class="meta">
+    <div><strong>Application:</strong> homedrive, a Google Drive sync agent</div>
+    <div><strong>Effective date:</strong> 2026-11-15</div>
+    <div><strong>Source code and issues:</strong> <a href="https://github.com/asnowfix/home-drive">https://github.com/asnowfix/home-drive</a></div>
+  </div>
+
+  <h2>1. Licence</h2>
+  <p>homedrive is free software released under the MIT License. The licence text is
+  in the <code>LICENSE</code> file of the repository:
+  <a href="https://github.com/asnowfix/home-drive/blob/main/LICENSE">https://github.com/asnowfix/home-drive/blob/main/LICENSE</a>.
+  Using, copying or modifying homedrive means you accept that licence.</p>
+
+  <h2>2. No warranty</h2>
+  <p>The licence states: "THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY
+  KIND, EXPRESS OR IMPLIED." The maintainer gives no warranty and accepts no
+  liability for loss or damage arising from its use.</p>
+
+  <h2>3. You run it</h2>
+  <p>You install, configure and operate homedrive yourself, on hardware you control.
+  You are responsible for your Google account, your OAuth client, your
+  rclone.conf, and the local files that homedrive syncs.</p>
+
+  <h2>4. OAuth client</h2>
+  <p>homedrive does not include an OAuth client. You supply one through rclone.conf:
+  either a client you created yourself, or one you have chosen to use that was
+  registered by someone else. If you register an OAuth client, you are its
+  developer and must follow Google's API Services User Data Policy and Google's
+  other terms for it.</p>
+
+  <h2>5. Your data and backups</h2>
+  <p>homedrive can create, overwrite and delete files, both locally and in Google
+  Drive, as part of keeping the two in sync. When both sides change, the default
+  <code>newer_wins</code> policy keeps the older version with a <code>.old.&lt;N&gt;</code> suffix.
+  Deletions sent to Google Drive go to the Drive trash by default. homedrive is not a
+  backup service. Keep your own backups of anything you cannot afford to lose.</p>
+
+  <h2>6. Support</h2>
+  <p>There is no support obligation. Bug reports and questions are handled as time
+  allows through GitHub issues:
+  <a href="https://github.com/asnowfix/home-drive/issues">https://github.com/asnowfix/home-drive/issues</a>.</p>
+
+  <h2>7. Not affiliated with Google</h2>
+  <p>homedrive is an independent project. It is not made, endorsed or supported by
+  Google. Use of Google Drive and of Google APIs is subject to Google's own terms.</p>
+
+  <h2>8. Changes</h2>
+  <p>These terms may change. The current version is in the repository, and the
+  effective date above is updated when they change.</p>
+
+  <footer>
+    <a href="../">homedrive home</a>
+    <a href="privacy-policy.html">Privacy policy</a>
+  </footer>
+</main>
+</body>
+</html>

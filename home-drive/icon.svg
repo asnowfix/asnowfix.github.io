@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-labelledby="title">
+  <title id="title">home-drive</title>
+  <g fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- house -->
+    <path d="M6 30 L32 8 L58 30"/>
+    <path d="M14 24 V56 H50 V24"/>
+    <!-- sync arrows -->
+    <path d="M22.6 37.6 A10 10 0 0 1 41.4 37.6"/>
+    <path d="M43.8 32.4 L41.7 38.5 L36.2 35.2"/>
+    <path d="M41.4 44.4 A10 10 0 0 1 22.6 44.4"/>
+    <path d="M20.2 49.6 L22.3 43.5 L27.8 46.8"/>
+  </g>
+</svg>
