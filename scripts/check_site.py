@@ -16,9 +16,17 @@ FORBIDDEN = [
     r"Device & Cloud", r"Senior Software & System Architect",
     r"exfiltrat", r"\b\d{2,4},? [Cc]hemin\b", r"\+33", r"\b0[67]([ .]?\d\d){4}\b",
     r"\bBorn\b", r"\b19[67]\d-\d\d-\d\d\b", r"\bTTA\b",
+    # Third-party hosts that were removed on purpose (self-hosted instead)
+    r"fonts\.googleapis\.com", r"fonts\.gstatic\.com", r"bootstrap@",
 ]
 TEXT_FILES = ["index.html", "script.js", "styles.css", "README.md"]
-ASSETS = ["assets/FiX-Kowalski-Resume.pdf", "assets/FiX-Kowalski-Detailed-CV.pdf"]
+ASSETS = [
+    "assets/FiX-Kowalski-Resume.pdf",
+    "assets/FiX-Kowalski-Detailed-CV.pdf",
+    "assets/fonts/inter-latin.woff2",
+    "assets/fonts/inter-latin-ext.woff2",
+    "vendor/bootstrap-subset.css",
+]
 
 bad = 0
 for name in TEXT_FILES:
