@@ -13,6 +13,18 @@ document.addEventListener('DOMContentLoaded', function() {
     // Footer year
     document.getElementById('year').textContent = new Date().getFullYear();
 
+    // Navbar toggle (replaces Bootstrap's collapse plugin)
+    const toggler = document.querySelector('.navbar-toggler');
+    const menu = document.getElementById('navbarNav');
+    toggler.addEventListener('click', function () {
+        const open = menu.classList.toggle('show');
+        toggler.setAttribute('aria-expanded', String(open));
+    });
+    menu.querySelectorAll('a').forEach(link => link.addEventListener('click', function () {
+        menu.classList.remove('show');
+        toggler.setAttribute('aria-expanded', 'false');
+    }));
+
     // Smooth scrolling for navigation
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {

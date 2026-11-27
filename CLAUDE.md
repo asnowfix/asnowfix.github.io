@@ -1,6 +1,6 @@
 # Maintaining github.asnowfix.fr
 
-Static site (plain HTML, Bootstrap/AOS/Font Awesome from CDNs, no build step), published by GitHub Pages from `main`. `CNAME` = `github.asnowfix.fr`; `asnowfix.github.io` redirects to it. Keep the existing design and add no dependencies. Content changes, not look.
+Static site (plain HTML, no build step; Font Awesome and AOS from CDNs; Bootstrap CSS vendored as a subset; Inter self-hosted), published by GitHub Pages from `main`. `CNAME` = `github.asnowfix.fr`; `asnowfix.github.io` redirects to it. Keep the existing design and add no dependencies. Content changes, not look.
 
 ## Source of truth (Google Drive, folder "CV & Resumes", id `1YT6XQrELb_NWLh3OUjQucTXlvTe9G_1m`)
 
@@ -38,9 +38,16 @@ The private masters contain a street address, phone number, birth date, family s
 5. Export each copy with `download_file_content` and `exportMimeType: "application/pdf"`. The result is saved to a local file under the session's `tool-results` folder; copy it over the matching file in `assets/`. Use `file` to confirm it is a PDF and check the page count (resume about 2 pages, detailed CV about 6).
 6. Tell FiX which source docs changed and that the PDFs were regenerated.
 
+## Front-end dependencies
+
+- **No Bootstrap CDN and no Bootstrap JS.** `vendor/bootstrap-subset.css` holds only the Bootstrap 5.3.0 rules that `index.html` uses, copied unchanged from `bootstrap.min.css`. If you add a Bootstrap class to `index.html`, copy its rule from the matching Bootstrap release into that file. The navbar toggle is in `script.js`.
+- **Inter is self-hosted**: `assets/fonts/inter-latin.woff2` and `inter-latin-ext.woff2` (variable font, weights 300-800, SIL OFL 1.1), declared in `styles.css`. Do not re-add Google Fonts links.
+- Font Awesome and AOS still load from CDNs (cdnjs, unpkg).
+- `scripts/check_site.py` fails if the Google Fonts or Bootstrap CDN hosts reappear.
+
 ## Updating the site
 
-1. Work on a branch in this repo, never on `main`. Keep the main worktree on `main` (see the user-level worktree rule).
+1. Work on a branch in its own git worktree (for example `git worktree add ../asnowfix.github.io-<topic> -b <branch>`), never on `main`. Keep the main worktree on `main` (see the user-level worktree rule). Remove the worktree after the PR is merged.
 2. Apply the spec's positioning strings verbatim: tagline, `<title>`, meta description and `og:description`. Keep `<link rel="canonical">` and `og:url` pointing at `https://github.asnowfix.fr/`.
 3. Keep experience entries short (about three lines on desktop). One Amadeus entry, "Nov 2019 - Present".
 4. Patent links: US 9,723,052 -> `https://patents.google.com/patent/US9723052B2/en`, US 8,819,698 -> `https://patents.google.com/patent/US8819698B2/en`. EPO register links return 403 to scripts, so check them by hand.
@@ -53,6 +60,7 @@ The private masters contain a street address, phone number, birth date, family s
 - Preview in Chrome with the Claude-in-Chrome tools (start Claude Code with `--chrome`). With several browsers connected, ask FiX which one to use and call `select_browser`.
 - The browser window cannot be resized below about 500px. To check phone width, load the live page in a 390px-wide `iframe` from `javascript_tool`, then measure `scrollWidth` against `clientWidth` after the AOS animations settle (about 1 second).
 - Headless Chrome screenshots miss AOS-hidden sections; do not rely on them.
+- To check that a change did not alter the look, serve the parent folder of two checkouts (`cd .. && python3 -m http.server 8767`), load both `index.html` files in iframes of the same width (390, 768, 1280), add `aos-animate` to every `[data-aos]`, and compare `getComputedStyle` for every element by index. Zero differences means no visual change.
 - After merge, GitHub Pages takes a minute or two; confirm with `curl -s https://github.asnowfix.fr | grep -o '<title>[^<]*</title>'`.
 
 ## Git and PRs
