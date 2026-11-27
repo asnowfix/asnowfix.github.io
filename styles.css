@@ -351,3 +351,72 @@ h2::after {
         font-size: 2.5rem;
     }
 }
+
+
+/* ---------- Accessibility ---------- */
+html { color-scheme: light dark; }
+body { overflow-x: clip; }
+
+a:focus-visible, button:focus-visible, .btn:focus-visible {
+    outline: 3px solid var(--accent-color);
+    outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation: none !important;
+        transition: none !important;
+        scroll-behavior: auto !important;
+    }
+    [data-aos] {
+        opacity: 1 !important;
+        transform: none !important;
+    }
+}
+
+/* ---------- Dark mode (follows the system setting) ---------- */
+@media (prefers-color-scheme: dark) {
+    body { background-color: #0b1220; color: #e2e8f0; }
+    .bg-light { background-color: #0f172a !important; }
+    .text-muted { color: #94a3b8 !important; }
+
+    h2, h4, h5, .info-card h6 { color: #f1f5f9; }
+
+    .card, .expertise-card, .info-card, .expertise-section,
+    .timeline-item .content {
+        background: #1e293b;
+        color: #e2e8f0;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.35);
+    }
+    .expertise-section { background: #111c2f; }
+    .project-card { border-color: rgba(255,255,255,0.06); }
+    .project-card.featured {
+        background: linear-gradient(135deg, #0c2a43 0%, #1e293b 100%);
+    }
+    .info-card h4 { border-bottom-color: #334155; }
+
+    .timeline::after { background-color: #334155; }
+    .timeline-item::after { background-color: #1e293b; }
+    .timeline-item.left::before { border-left-color: #1e293b; }
+    .timeline-item.right::before { border-right-color: #1e293b; }
+    .timeline .date { background: #0c4a6e; color: #7dd3fc; }
+
+    .badge.bg-light.text-dark {
+        background-color: #1e293b !important;
+        color: #e2e8f0 !important;
+        border-color: #334155 !important;
+    }
+    .btn-outline-dark { color: #e2e8f0; border-color: #64748b; }
+    .btn-outline-dark:hover, .btn-outline-dark:focus-visible {
+        background-color: #e2e8f0;
+        border-color: #e2e8f0;
+        color: #0f172a;
+    }
+    .text-primary { color: #38bdf8 !important; }
+    .btn-outline-primary { color: #7dd3fc; border-color: #38bdf8; }
+    .btn-outline-primary:hover { background-color: #38bdf8; color: #0f172a; }
+}
+
+@media screen and (max-width: 768px) and (prefers-color-scheme: dark) {
+    .timeline-item::before { border-right-color: #1e293b; }
+}
