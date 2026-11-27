@@ -7,19 +7,8 @@ document.addEventListener('DOMContentLoaded', function() {
         offset: 50
     });
 
-    // Typed.js for dynamic text
-    new Typed('#typed-text', {
-        strings: [
-            'Agentic AI Platform Architect',
-            'Multi-Cloud & DevOps Expert',
-            'System Software Architect',
-            'Low-Level Systems Engineer'
-        ],
-        typeSpeed: 40,
-        backSpeed: 20,
-        backDelay: 2000,
-        loop: true
-    });
+    // Footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
 
     // Smooth scrolling for navigation
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
