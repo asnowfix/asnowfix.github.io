@@ -5,6 +5,7 @@ Run with: python3 -I scripts/check_site.py
 """
 import pathlib
 import re
+import subprocess
 import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -30,9 +31,17 @@ for name in TEXT_FILES:
             line = text.count("\n", 0, m.start()) + 1
             print(f"FORBIDDEN {pat!r} in {name}:{line}")
             bad += 1
+# An asset can exist on disk yet be ignored by .gitignore (e.g. *.pdf), in which
+# case it never reaches the PR. Check git actually tracks or will add it.
+tracked = set(subprocess.run(
+    ["git", "-C", str(ROOT), "ls-files", "--cached", "--others", "--exclude-standard"],
+    capture_output=True, text=True, check=True).stdout.split("\n"))
 for name in ASSETS:
     if not (ROOT / name).is_file():
         print(f"MISSING asset {name}")
+        bad += 1
+    elif name not in tracked:
+        print(f"IGNORED by git (would not be committed): {name}")
         bad += 1
 if "rel=\"canonical\"" not in (ROOT / "index.html").read_text(encoding="utf-8"):
     print("MISSING canonical link in index.html")
