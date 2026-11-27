@@ -1,6 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Initialize AOS
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    // Initialize AOS (skipped when the visitor prefers reduced motion)
     AOS.init({
+        disable: reduceMotion,
         duration: 800,
         easing: 'ease-out-cubic',
         once: true,
@@ -15,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
             document.querySelector(this.getAttribute('href')).scrollIntoView({
-                behavior: 'smooth'
+                behavior: reduceMotion ? 'auto' : 'smooth'
             });
         });
     });
